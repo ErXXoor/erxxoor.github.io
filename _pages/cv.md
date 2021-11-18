@@ -11,30 +11,35 @@ redirect_from:
 
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* B.S. in East China Normal University, 2018
+* M.S. in University of Texas, Dallas, 2021
 
 Work experience
 ======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* Dec. 2019 - May. 2021: Research Assistant
+  * Univerisity of Texas, Dallas
+  * Research in Inverse rendering for face generative model and deep fake face detection.
+  * Reproduced some paper results and tried to explore some new methods that can be more robust and generalizable
+on deep fake detection.
+  * Utilized Python, Pytorch.
+  * Supervisor: Prof. Xiaohu Guo, Prof. Feng Chen
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* Fall 2017: Backend Internship
+  * Hundsun Technologies Inc.
+  * Primary responsibilities include design and development of client and server code
+  * Used Spring Framework for Dependency injection and integrated with the Struts Framework and MyBatis.
+  * Used AJAX, JSON for data transfer between front end and back end.
+  * Utilized Java, MySQL and JavaScript.
+
+* Fall 2015: Undergraduate Research Assistant
+  * East China Normal University
+  * Developed a set of tools on face recognition and alignment based on dlib for lab use.
+  * Utilized Python, OpenCV, MySQL.
   
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Language: Java, C++, SQL, Reactjs
+* Frameworks: OpenGL, Pytorch, Spring
 
 Publications
 ======
@@ -42,18 +47,4 @@ Publications
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-Talks
-======
-  <ul>{% for post in site.talks %}
-    {% include archive-single-talk-cv.html %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+
