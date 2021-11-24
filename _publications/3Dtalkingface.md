@@ -2,8 +2,7 @@
 title: "3D Talking Face with Personalized Pose Dynamics"
 collection: publications
 # permalink: /publication/3Dtalkingface
-excerpt: 'In this paper, we introduce a fully automatic generation framework for audio-driven 3D talking face with pose dynamics, and build a person-specific head motion dataset, providing corresponding head pose sequences and
-face shapes for each video.'
+excerpt: 'In this paper, we introduce a fully automatic generation framework for audio-driven 3D talking face with pose dynamics, and build a person-specific head motion dataset, providing corresponding head pose sequences and face shapes for each video.'
 date: 2021-01-01
 venue: 'International Conference on Computational Visual Media(CVM)'
 # paperurl: 'http://academicpages.github.io/files/paper3.pdf'
