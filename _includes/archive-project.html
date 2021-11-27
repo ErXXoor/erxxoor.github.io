@@ -52,10 +52,20 @@
         <img src="{{post.preview_path}}" width="150" height="100" alt="{{post.short}}">
         {% endif %}
         
-        {% if post.excerpt.first == false and site.read_more != 'enabled' %}
-        <p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify }}</p>
-        {% elsif post.excerpt and site.read_more == 'enabled' %}
-        <p class="archive__item-excerpt" itemprop="description"><p>{{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}<strong><a href="{{ base_path }}{{ post.url }}" rel="permalink"> Read more</a></strong></p></p>
+        {% if post.excerpt.first==nil and site.read_more != 'enabled' %}
+            <p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify }}</p>
+        {% elsif post.excerpt.first==nil and site.read_more == 'enabled' %}
+            <p class="archive__item-excerpt" itemprop="description"><p>{{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}<strong><a href="{{ base_path }}{{ post.url }}" rel="permalink"> Read more</a></strong></p></p>
+        {% endif %}
+
+        {% if post.keypoints.first %}
+        <ul>
+            {% for keypoint in post.keypoints %}
+            <li>
+                <p class="archive__item-excerpt" itemprop="description">{{ keypoint |markdownify }}</p>
+            </li> 
+            {% endfor %}  
+        </ul>
         {% endif %}
  
     {% if post.citation and post.paperurl %}
@@ -67,4 +77,6 @@
     {% endif %}
 
   </article>
+  <!-- <hr style="height:1px;border:none;color:#333;background-color:#333;"/> -->
+  <hr>
 </div>
