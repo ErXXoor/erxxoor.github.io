@@ -9,42 +9,35 @@ redirect_from:
 
 {% include base_path %}
 
-Education
-======
+## Education
+
 * B.S. in East China Normal University, 2018
 * M.S. in University of Texas, Dallas, 2021
 
-Work experience
-======
-* Dec. 2019 - May. 2021: Research Assistant
-  * Univerisity of Texas, Dallas
-  * Research in Inverse rendering for face generative model and deep fake face detection.
-  * Reproduced some paper results and tried to explore some new methods that can be more robust and generalizable
-on deep fake detection.
+## Work experience
+
+* Graphics Engineer
+  * GritWorld GmbH.  May. 2021 - Present
+  * Refined Assimp converter to support more customized extensions used by the graphics engine, which can save the modified data or new data made by the engine.
+  * Designed an upgrading workflow to support the project version and developed migration tools for upgrading legacy assets and projects.
+  * Participated in developing the LOD(Level of detail) algorithm and integrated into the engine, increasing  support for at most 300% more mesh facets in each scene than before.
+  * Utilized C++, OpenGL.
+
+* Research Assistant
+  * Univerisity of Texas, Dallas.  Dec. 2019 - May. 2021
+  * Did research in Inverse rendering for face generative model and deep fake face detection advised by Prof. Xiaohu Guo and Prof. Feng Chen.
+  * Reproduced some paper results and tried to explore some new methods that can be more robust and generalizable on deep fake detection.
   * Utilized Python, Pytorch.
   * Supervisor: Prof. Xiaohu Guo, Prof. Feng Chen
-
-* Fall 2017: Backend Internship
-  * Hundsun Technologies Inc.
-  * Primary responsibilities include design and development of client and server code
-  * Used Spring Framework for Dependency injection and integrated with the Struts Framework and MyBatis.
-  * Used AJAX, JSON for data transfer between front end and back end.
-  * Utilized Java, MySQL and JavaScript.
-
-* Fall 2015: Undergraduate Research Assistant
-  * East China Normal University
-  * Developed a set of tools on face recognition and alignment based on dlib for lab use.
-  * Utilized Python, OpenCV, MySQL.
   
-Skills
-======
-* Language: Java, C++, SQL, Reactjs
-* Frameworks: OpenGL, Pytorch, Spring
+## Skills
 
-Publications
-======
+* Language: Java, C++, SQL, Reactjs.
+* Frameworks: OpenGL, Pytorch, SpringBoot.
+
+<!-- ## Publications
+
   <ul>{% for post in site.publications %}
     {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+  {% endfor %}</ul> -->
   
-
